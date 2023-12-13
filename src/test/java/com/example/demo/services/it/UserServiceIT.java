@@ -2,7 +2,6 @@ package com.example.demo.services.it;
 
 
 import com.example.demo.entities.User;
-import com.example.demo.exceptions.UserNotFoundException;
 import com.example.demo.services.UserService;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +14,8 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 
 import java.util.List;
 
-@Testcontainers()
+
+@Testcontainers
 @SpringBootTest
 public class UserServiceIT {
 
